@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>EOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700|Roboto+Condensed:300,300i,400,400i,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700|Ubuntu:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/adaptive.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <section class="header about-header">
+        <div class="container">
+            <div class="row">
+                <div class="header-first-row">     
+                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6">
+                        <a href="index.html">
+                            <div class="logo" style="background-image: url(img/logo.png)"></div>
+                        </a>
+                    </div>
+                    <div class="hidden-lg hidden-md col-sm-6 col-xs-6">
+                            <button type="button" class="navbar-toggler">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="hidden-lg-custom  col-lg-3 hidden-sm col-md-2 hidden-xs">
+                        <div class="soc-icons">
+                            <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                            <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                            <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                            <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                            <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 hidden-xs-custom">
+                        <div class="leave-request">
+                            <button class="gray-button openmodal" data="order-popup">Оставить заявку<i class="flaticon-pen"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="phone-number">
+                            <a href="tel:+7(495)221-24-31"><i class="flaticon-smartphone-call"></i></a><a href="">+7(495)221-24-31</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="log-in">
+                            <button class="gray-button openmodal" data="call-popup">Войти<img src="img/icons/person.png"></button>
+                            <button class=""><i class="flaticon-lypa"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="main-menu">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Решения</a></li>
+                        <li><a href="#">Продукты</a></li>
+                        <li><a href="#">Пользователям</a></li>
+                        <li><a href="#">Партнерам</a></li>
+                        <li><a href="#">Мероприятия</a></li>
+                        <li><a href="#">О документообороте</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line-a-block news-spec product-m">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <i class="flaticon-right-arrow"></i>
+                    <li><a href="about.html">О компании</a></li>
+                    <i class="flaticon-right-arrow"></i>
+                    <li><a href="news.html">Новости</a></li>
+                    <i class="flaticon-right-arrow"></i>
+                    <li>«Весенний документооборот - 2017»</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-sec product-sec sp-sec ">
+        <div class="container">
+            <div class="row price-spec">
+                <div class="col-md-3">
+                    <div class="about-ul-wrap nav-wrap">
+                        <ul class="about-ul nav nav-tabs" id="news_detalsTab">
+                            
+                            <li><a href="about.html">О компании</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                            <li role="presentation" class="active"><a href="#news_detals-company" data-toggle="tab" role="tab">Новости компании</a></li>
+                            <li><a href="#">История</a></li>
+                            <li><a href="#">Наши клиенты</a></li>
+                            <li><a href="#">Наши партнеры</a></li>
+                            <li><a href="#">Команда</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Сертификаты и лицензии</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Филиалы компании</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="stock-block">
+                        <div class="span-img">
+                            <img src="img/icons/stock-ii.png">
+                            <span>Акция</span>
+                        </div>
+                        <h3>Миграция с других систем</h3>
+                        <p>Скидка до 15% на право использования «ДЕЛО» при миграции с других решений </p>
+                        <button class="arrow-button"><img src="img/icons/arrow.png"></button>
+                    </div>
+                    <div class="order-block-wrap">
+                        <div class="order-block-top">
+                            <img src="img/icons/ehy1.png">
+                            <p>Получите демоверсию и консультацию</p>
+                            <a href="tel:+74952212431">+7(495) 221-24-31</a>
+                        </div>
+                        <div class="order-block-bottom">
+                            <span>или</span>
+                            <p>Узнайте стоимость</p>
+                            <button class="white-button">Оставить заявку<img src="img/icons/sms.png"></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-9 sol-wrapper">
+                    <div class="tab-content product-sec">
+                        <div class="tab-pane fade in active" id="news_detals-company">
+                            <div class="news-afisha" style="background-image: url(img/news-back2.png)">
+                                <a href="#"><img src="img/icons/left-arrow.png">Вернуться к списку</a>
+                                <div class="text-a-block">
+                                    <p>12<span>мая</span></p>
+                                    <p>"Весенний документооборот - 2017", часть первая.<br>О рынке, развитии продуктов, конкуренции и импортозамещении</p>
+                                </div>
+
+                            </div>
+                            <section class="text-news-sec">
+                                <div class="text-block">
+                                    <p class="p-bold">Партнерская конференция компании ЭОС «Весенний документооборот - 2017»</p>
+                                    <p>«Весенний документооборот - 2017» впервые за историю конференции проводится за рубежом. 
+                                            Несмотря на удаленность места традиционной встречи от столицы, количество участников мероприятия 
+                                            по сравнению с прошлыми годами увеличилось. «Чем дальше мы уезжаем, тем больше гостей приезжают 
+                                            к нам», - отметил в ходе приветственной встречи вечером 24 апреля  Владимир Баласанян. </p>
+                                </div>
+                                <div class="text-block">
+                                    <p class="p-bold">Итоги работы партнерской сети ЭОС и ЮЗЭДО как важнейший тренд</p>
+                                    <p class="small-p-bold">Первые дни работы конференции «Весенний документооборот – 2017» прошли согласно ранее объявленной программе (см. новость раздела «ЭОС» от 14 апреля 2017 г.) за исключением некоторых нюансов. Так, вместо доклада «Что происходит на рынке и на чем можно зарабатывать?» Владимир Баласанян повел разговор 
+                                            о юридически значимом электронном документообороте. «Вряд ли кто-то может научить наших партнеров лучше продавать. Может быть, мы все вместе найдем верные решения за круглым столом. А ЮЗЭДО - тренд, который только начинает серьезно проявляться на рынке и, если судить по Европе, США и Австралии, в ближайшие 10 лет он будет развиваться. Поэтому цель моей презентации – рассказать о связанных с ЮЗЭДО проблемах, о том, как занимается ими ЭОС, и это очень интересная работа», - обратился лидер ЭОС к присутствующим.</p>
+                                            <p class="small-p-bold">Владимир Баласанян подчеркнул, что СЭД, по сути – это одна из система автоматизации работы с документами, хоть с бумажными, хоть с электронными. Чтобы СЭД могла поддерживать электронный документооборот, она должна соответствовать неким технологическим требованиям, реализовывать электронное взаимодействие с внешними системами.</p>
+                                            <div class="img-wrap">
+                                                    <img src="img/mrher.png">
+                                                    <p>Председатель Совета директоров ЭОС Владимир Баласанян</p>
+                                            </div>
+                               
+                                    
+                                  <p>Компаниям, которые хотят вести ЮЗЭДО, спикер порекомендовал определить, документы каких форматов они хотят использовать как юридически значимые, а потом определиться с технологическими условиями для обеспечения их юридической силы на протяжении необходимого времени. Долговременное архивное хранение электронных документов представляет собой сложную задачу: тогда как бумажные документы интерпретируются непосредственно человеком и хранятся в хороших условиях несколько сотен лет, электронные документы хранятся на специальных носителях и интерпретируются аппаратно-программной средой. Носители и средства обработки физически и морально устаревают в течение короткого периода – ни один из сегодняшних носителей не гарантирует сохранности документов больше 5-7 лет. А значит, возникает проблема миграции документов на другие носители и в другую среду и проблема сохранения юридической силы при миграции документов.</p>
+                                  <blockquote>СЭД, по сути - это одна из систем автоматизации работы 
+                                        с документами, хоть с бумажными, хоть сэлектронными</blockquote>
+                                </div>
+                                <div class="text-block">
+                                    <p class="p-bold">Развитие программных продуктов и решений ЭОС</p>
+                                    <p>Второй день конференции – Product Day – был посвящен программным продуктам ЭОС и компаний-партнеров,
+                                            а также импортозамещающим решениям. Раздел «Развитие программных продуктов и решений ЭОС. Госуслуги и МФЦ – наш опыт, опыт партнеров. Как можно продавать?» объединил три выступления. Так, генеральный директор ЭОС ПВ Юрий Назаров рассказал о развитии СЭД «ДЕЛО» - в начале мая выйдет ее версия 17.1. Изменения затронут разные функции известного решения. В части подготовки и оформления электронных документов изменения коснутся шаблонов документов, заполняемых из СЭД «ДЕЛО», склонения фамилий, должностей, названий подразделений, профилей пользователей для комфортного использования ЭП.</p>
+                                            <div class="img-wrap">
+                                                <img src="img/screen1.png">
+                                                <p>Подготовка и оформление документа в СЭД «ДЕЛО» 17.1</p>
+                                            </div>
+                                            <p>Общесистемные улучшения произойдут, например, в части развития модуля интеграции с порталами обработки писем граждан, многопунктовых и периодических поручений, дальнейшего развития СЭВ, развития специализированных (ролевых) АРМ (унификация внешнего вида поручений, отчетов, данных о контроле, переработка закладки «связанные документы», просмотр журнала движения документа, устранение лишних окон 
+                                                    и так далее). </p>
+                                </div>
+                                <div class="text-block">
+                                    <p class="p-bold">Мониторинг ключевых показателей бизнес-процессов с помощью СЭД/ECM</p>
+                                    <p> Время, когда СЭД/ECM-решения были всего лишь учетным вспомогательным инструментом, безвозвратно ушло в прошлое. Сегодня такие системы постепенно превращаются в одно из основных средств взаимодействия сотрудников и подразделений внутри организации и ценнейший источник аналитической информации о всех рабочих процессах. Вот всего лишь некоторые значимые показатели, которые можно проанализировать с помощью встроенного в ECM-продукты аналитического функционала и использовать для оперативной корректировки управленческих процессов: </p>
+                                    <ul>
+                                        <li>распределение задач между сотрудниками;</li>
+                                        <li>скорость обработки запросов различными подразделениями;</li>
+                                        <li>общее время прохождения информационного потока и т.д. </li>
+                                    </ul>
+                                </div>
+                                <div class="forum-table-wrapper">
+                                    <table class="forum-table">
+                                        <tr>
+                                            <th class="first">Темы</th>
+                                            <th class="first">Ответы</th>
+                                            <th class="first">Просмотры</th>
+                                            <th class="first">Обновление</th>
+                                            
+                                        </tr>
+                                       
+                                        <tr>
+                                            <td>Общероссийский классификатор обращений 
+                                                    граждан автор : Виноградов Сергей</td>
+                                                    <td>0</td>
+                                                    <td>32</td>
+                                                    <td>05. 05.2017 09:53:28<br>
+                                                            автор: Виноградов Сергей</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Отправка РК<br>
+                                                    Ввод сопроводительного текста<br>
+                                                    · автор: Евгений Амосов</td>
+                                                    <td>5</td>
+                                                    <td>46</td>
+                                                    <td>17.04.2017 07:31:35<br>
+                                                            Евгений Амосов</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Общероссийский классификатор обращений граждан<br>
+                                                      автор: Виноградов Сергей</td>
+                                                      <td>10</td>
+                                                      <td>78</td>
+                                                      <td>05. 05.2017 09:53:28<br>
+                                                        автор: Виноградов Сергей</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Отправка РК<br>
+                                                Ввод сопроводительного текста<br>
+                                                · автор: Евгений Амосов</td>
+                                                <td>23</td>
+                                                <td>758</td>
+                                                <td>17.04.2017 07:31:35<br>
+                                                    Евгений Амосов</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </section>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+
+                        <section class="news-sec">
+                                <div class="container">
+                                    <h2 class="h2-style">Новости</h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <div class="news-sec__item">     
+                                                <div class="left-col-block">
+                                                    <p>12<span>мая</span></p>
+                                                </div>
+                                                <div class="right-col-block">
+                                                    <p>Облачный сервис «eDocLib: Актив Бизнес»: максимум выгод при минимуме затрат </p>
+                                                    <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <div class="news-sec__item"> 
+                                                <div class="left-col-block">
+                                                    <p>15<span>мая</span></p>
+                                                </div>
+                                                <div class="right-col-block">
+                                                    <p>От обработки счетов-фактур, договоров, досье и проектной документации до автоматизации </p>
+                                                    <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <div class="news-sec__item"> 
+
+                                                <div class="left-col-block">
+                                                    <p>25<span>мая</span></p>
+                                                </div>
+                                                <div class="right-col-block">
+                                                    <p>Благодарность от администрации Оленекского эвенкийского национального района</p>
+                                                    <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-a-block">
+                                    <a href="#">Все новости<i class="flaticon-next"></i></a>
+                                </div>
+                            </section>
+
+                            <section class="calendar-sec index-cal-sec">
+                                    <div class="container">
+                                        <h2 class="h2-style">Календарь мероприятий</h2>
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                                <div class="calendar-sec__item">
+                                                    <div class="left-col-block">
+                                                        <p>30<span>мая</span></p>
+                                                    </div>
+                                                    <div class="right-col-block">
+                                                        <p>Автоматизация документооборота девелоперских компаний. Контроль сроков и взаимодействие с подрядчиками</p>
+                                                        <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                                <div class="calendar-sec__item">
+                                                    <div class="left-col-block">
+                                                        <p>01<span>июн</span></p>
+                                                    </div>
+                                                    <div class="right-col-block">
+                                                        <p>Автоматизация управления архивом – от формирования дел до передачи на государственное хранения</p>
+                                                        <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                                <div class="calendar-sec__item">
+                                                    <div class="left-col-block">
+                                                        <p>15<span>июн</span></p>
+                                                    </div>
+                                                    <div class="right-col-block">
+                                                        <p>Обмен в электронном виде с контрагентами. Сценарии, варианты реализации, применение EDI-сервисов</p>
+                                                        <a href="#">Узнать больше<i class="flaticon-next"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="line-a-block">
+                                        <a href="#">Все мероприятия<i class="flaticon-next"></i></a>
+                                    </div>
+                                </section>
+
+                                <section class="clients-sec">
+
+                                    <div class="container">
+                                        <h2 class="h2-style">Наши клиенты</h2>
+                                        <div class="slider-wrapper">
+                                            <div class="clients-slider">
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="slide">
+                                                    <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="line-a-block">
+                                        <div class="clients-s-nav">
+                                            <div class="clients-arrows">
+                                                <div class="clients-tumbler"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                                    <section class="partners-sec">
+                                        <div class="container" style="background-image: url(img/partners-back.png)">
+                                            <div class="partners-block">
+                                                <h2 class="h2-style">Наши партнеры</h2>
+                                                <div class="circle-partners">
+                                                    <span>250</span>
+                                                </div>
+                                                <p>во всех городах России<br> и странах СНГ</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <footer>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-2 contact-block">
+                                                    <img src="img/logo-footer.png">
+                                                    <a href="tel: +7(495)2212431">+7(495) 221-24-31</a>
+                                                    <span>Звоните нам</span>
+                                                    <p>ПН-ПТ: 9.00-19.00</p>
+                                                    <div class="line-block">
+                                                        <p>Москва, ул.Шумкина, д.20 стр.1</p>
+                                                    </div>
+                                                    <div class="soc-icons">
+                                                        <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                                                        <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                                                        <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                                                        <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                                                        <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <h3 class="orange-line">Решения</h3>
+                                                    <ul>
+                                                        <li><a href="#">Автоматизация бизнес-процессов</a></li>
+                                                        <li><a href="#">Классическое делопроизводство</a></li>
+                                                        <li><a href="#">Мобильные приложения</a></li>
+                                                        <li><a href="#">Решения по отраслям</a></li>
+                                                        <li><a href="#">Электронная подпись</a></li>
+                                                        <li><a href="#">Электронные гос. услуги</a></li>
+                                                        <li><a href="#">Электронный архив документов</a></li>
+                                                        <li><a href="#">Электронный Парламент</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <h3>Продукты</h3>
+                                                    <ul>
+                                                        <li><a href="#">ДЕЛО</a></li>
+                                                        <li><a href="#">EOS for SharePoint</a></li>
+                                                        <li><a href="#">Мобильные приложения</a></li>
+                                                        <li><a href="#">eDocLib</a></li>
+                                                        <li><a href="#">Архивное ДЕЛО</a></li>
+                                                        <li><a href="#">EDSIGN</a></li>
+                                                        <li><a href="#">КАРМА</a></li>
+                                                        <li><a href="#">Цены</a></li>
+                                                        <li><a href="#">Услуги</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <h3 class="orange-line">О компании</h3>
+                                                    <ul>
+                                                        <li><a href="#">О компании</a></li>
+                                                        <li><a href="#">Контакты</a></li>
+                                                        <li><a href="#">Новости компании</a></li>
+                                                        <li><a href="#">Наши клиенты</a></li>
+                                                        <li><a href="#">Наши партнеры</a></li>
+                                                        <li><a href="#">Партнёрская программа</a></li>
+                                                        <li><a href="#">Вакансии</a></li>
+                                                        <li><a href="#">Команда</a></li>
+                                                        <li><a href="#">Сертификаты и лицензии</a></li>
+                                                        <li><a href="#">ЭОС в соц.сетях</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <h3>Пользователям</h3>
+                                                    <ul>
+                                                        <li><a href="#">Условия тех.поддержки</a></li>
+                                                        <li><a href='#'>Новости сопровождения</a></li>
+                                                        <li><a href="#">FAQ</a></li>
+                                                        <li><a href="#">Форум</a></li>
+                                                        <li><a href='#'>Дополнительная информация</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="rights-block">
+                                                <p>Copyright 2017 «Электронные Офисные Системы»</p>
+                                                <p>Дизайн - <a href="http://www.liqium.ru/">Liqium</a></p>
+                                            </div>
+                                
+                                        </div>
+
+                                        <section class="order-popup">
+                                            <div class="bg-popup" data="order-popup" style="display: none;">
+                                                <div class="container popup-call">
+                                                    <div class="order-wrap">
+                                                        <div class="graytop-block">
+                                                            <button class="cross">
+                                                                <i class="flaticon-cross"></i>
+                                                            </button>
+                                                            <h2>Оставить заявку</h2>
+                                                            <p>Свяжитесь с нами, и мы поможем найти оптимальное решение ваших задач</p>
+                                                        </div>
+                                                        <div class="white-block">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input class="input-style" required type="text" size="15" placeholder="E-mail*">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <textarea class="text-field field-margin" placeholder="Сообщение"></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="check-wrapper">
+                                                            <div class="row">
+                                                                    <div class="col-md-3">
+                                                                            <span>Вы хотите*</span>
+                                                                    </div>
+                                                                
+                                                                <div class="col-md-9 right-block">
+                                                                    <div class="check-wrap">
+                                                                            <input type="checkbox" id="free-prs">
+                                                                            <label for="free-prs">Заказать бесплатную презентацию системы у Вас в офисе</label>
+                                                                    </div>
+                                                                       <div class="check-wrap">
+                                                                            <input type="checkbox" id="comm-offer">
+                                                                            <label for="comm-offer">Получить коммерческое предложение на поставку и внедрение</label>
+                                                                       </div>
+                                                                       <div class="check-wrap">
+                                                                            <input type="checkbox" id="free-demo">
+                                                                            <label fore="free-demo">Получить бесплатную демо-версию системы</label>
+                                                                       </div>                
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="bottom-block">
+                                                                <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                                                <p class="lighter">*Обязательные поля для заполнения</p>
+                                                                <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                                                            </div>
+                                      
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <section class="call-popup">
+                                            <div class="bg-popup" data="call-popup" style="display: none;">
+                                                <div class="container popup-call">
+                                                    <div class="order-wrap">
+                                                        <div class="graytop-block">
+                                                            <button class="cross">
+                                                                <i class="flaticon-cross"></i>
+                                                            </button>
+                                                            <h2>Заказать обратный звонок</h2>
+                                                            <p>Заполните форму и мы свяжемся с Вами  в удобное для Вас время
+                                                                    и ответим на все вопросы</p>
+                                                        </div>
+                                                        <div class="white-block">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                                                </div>
+                                                              
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <textarea class="text-field field-margin" placeholder="Ваш вопрос"></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="check-wrapper">
+                                                            <div class="bottom-block">
+                                                                <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                                                <p class="lighter">*Обязательные поля для заполнения</p>
+                                                                <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                    </footer>
+                                </body>
+                                
+                                </html>
+                                

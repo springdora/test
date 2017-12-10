@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>EOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700|Roboto+Condensed:300,300i,400,400i,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700|Ubuntu:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/adaptive.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    
+    <section class="header about-header">
+        <div class="container">
+            <div class="row">
+                <div class="header-first-row">     
+                    <div class="col-md-2 col-lg-2 col-sm-12 col-xs-6">
+                        <a href="index.html">
+                            <div class="logo" style="background-image: url(img/logo.png)"></div>
+                        </a>
+                    </div>
+                    <div class="hidden-lg hidden-md hidden-sm col-xs-6">
+                            <button type="button" class="navbar-toggler">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="hidden-lg-custom  col-lg-3 hidden-sm col-md-2 hidden-xs">
+                        <div class="soc-icons">
+                            <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                            <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                            <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                            <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                            <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 hidden-xs-custom">
+                        <div class="leave-request">
+                            <button class="gray-button openmodal" data="order-popup">Оставить заявку<i class="flaticon-pen"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="phone-number">
+                            <a href="tel:+7(495)221-24-31"><i class="flaticon-smartphone-call"></i></a><a href="">+7(495)221-24-31</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="log-in">
+                            <button class="gray-button openmodal" data="call-popup">Войти<img src="img/icons/person.png"></button>
+                            <button class=""><i class="flaticon-lypa"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="main-menu">
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="solutions.html">Решения</a></li>
+                        <li><a href="products.html">Продукты</a></li>
+                        <li><a href="contacts.html">Пользователям</a></li>
+                        <li><a href="partners.html">Партнерам</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="#">О документообороте</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="line-a-block">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <i class="flaticon-right-arrow"></i>
+                <li><a href="solutions.html">Решения</a></li>
+                    <i class="flaticon-right-arrow"></i>
+                <li><a href="#">Решения по функционалу</a></li>
+                <i class="flaticon-right-arrow"></i>
+                <li>Организация и ведение делопроизводства на предприятии<li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about-sec product-sec sp-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="about-ul-wrap nav-wrap">
+                        <ul class="about-ul nav nav-tabs" id="product-detailTab">
+                            <li role="presentation" class="active"><a href="#product-dl-company" data-toggle="tab" role="tab">Описание</a></li>
+                            <li><a href="#">Преимущества</a></li>
+                            <li><a href="#">Функциональность</a></li>
+                            <li><a href="#">Скриншоты</a></li>
+                            <li><a href="#">Презентации и видео</a></li>
+                            <li><a href="#">Госуслуги и обращения граждан</a></li>
+                            <li><a href="#">В помощь госзаказчику</a></li>
+                            <li><a href="#">Решения на основе ПО ЭОС</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Акции и скидки</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Клиенты и проекты</a></li>
+                            <li><a href="#">Дистрибутивы</a></li>
+                            <li><a href="#">Демо-версия</a></li>
+                            <li><a href="#">Дополнительная информация</a></li>
+                        </ul>
+                    </div>
+                    <div class="stock-block">
+                        <div class="span-img">
+                            <img src="img/icons/stock-ii.png">
+                            <span>Акция</span>
+                        </div>
+                        <h3>Миграция с других систем</h3>
+                        <p>Скидка до 15% на право использования «ДЕЛО» при миграции с других решений </p>
+                        <button class="arrow-button"><img src="img/icons/arrow.png"></button>
+                    </div>
+                    <div class="order-block-wrap">
+                        <div class="order-block-top">
+                            <img src="img/icons/ehy1.png">
+                            <p>Получите демоверсию и консультацию</p>
+                            <a href="tel:+74952212431">+7(495) 221-24-31</a>
+                        </div>
+                        <div class="order-block-bottom">
+                            <span>или</span>
+                            <p>Узнайте стоимость</p>
+                            <button class="white-button">Оставить заявку<img src="img/icons/sms.png"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content product-sec products-sec">
+                        <div class="tab-pane fade in active" id="product-dl-company">
+
+                            <div class="h-p-wrap">
+                                <h2 class="h2-style">Поточное сканирование</h2>
+                                <p>Легкий и быстрый способ перевести в электронный вид значительные объемы бумажных документов</p>
+                            </div>
+                            <div class="about-video-wrap">
+                                <div class="about-left-block">
+                                    <p>Опция «Поточное сканирование компании «Электронные Офисные Системы помогает легко и быстро перевести в электронный вид большой объем бумажных документов.</p>
+                                    <a href="#">Узнайте о решении прямой сейчас<i class="flaticon-next"></i></a>
+                                    <button class="white-button">Оставить заявку<img src="img/icons/sms.png"></button>
+                                </div>
+                                <div class="about-right-block" style="background-image: url(img/video-back2.png)">
+                                    <a href="#" class="play-button">
+                                        <i class="flaticon-play-button1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="opport-wrap">
+                                <h2>Возможности</h2>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="sol-block">
+                                            <img src="img/icons/o1.png">
+                                            <p>Распознавание текста (OCR)</p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/o2.png">
+                                            <p>Сканирование одной кнопкой</p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/o3.png">
+                                            <p>Высокая скорость</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sol-block">
+                                            <img src="img/icons/o4.png">
+                                            <p>API-интерфейс</p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/i55.png">
+                                            <p>Документные сканеры</p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/o5.png">
+                                            <p>Интеграция с любыми системами</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sol-block">
+                                            <img src="img/icons/o6.png">
+                                            <p>Простое лицензирование
+                                            </p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/o7.png">
+                                            <p>Ручной контроль</p>
+                                        </div>
+                                        <div class="sol-block">
+                                            <img src="img/icons/o8.png">
+                                            <p>Технические требования и загрузка дистрибутива</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f1.png">
+                                <div class="right-block">
+                                    <p class="bolder">Распознавание текста (OCR)</p>
+                                    <p class="ufont-p">Распознавание отсканированного документа и его сохранение в текстовом виде существенно расширяет возможности по его да- льнейшее обработке. К примеру, становится доступным быстрый поиск по содержанию документов. Механизм распознавания текста в опции «Поточное сканирование» базируется на возможностях продукта ABBYY FineReader Engine, по праву считающегося лучшим решением для распознавания.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f2.png">
+                                <div class="right-block">
+                                    <p class="bolder">Сканирование одной кнопкой</p>
+                                    <p class="ufont-p">Система поддерживает работу с сетевым сканером - достаточно загрузить в него документы и нажать кнопку сканирования на са- мом устройстве. Полученные результаты будут автоматически сохраняться и отправляться на дальнейшую обработку. Таким образом, управление сканированием сводиться к нажатию одной кнопки. А значит, не требуется ни специальных программ для упра- вления сканером, ни отдельного рабочего места для управления сканированием, благодаря чему достигается существенная эко- номия времени.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f3.png">
+                                <div class="right-block">
+                                    <p class="bolder">Высокая скорость</p>
+                                    <p class="ufont-p">При традиционном подходе обработка текста при распознавании может занимать достаточно много времени. В опции «Поточное сканирование» предусмотрена возможность параллельной обработки текста на нескольких серверах одновременно, что позволяет получить необходимую скорость обработки.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f4.png">
+                                <div class="right-block">
+                                    <p class="bolder">Интеграция с любыми системами</p>
+                                    <p class="ufont-p">Процедура регистрации сканируемых документов практически не отличается от стандартной. Опция «Поточное сканирование» запускается непосредственно из используемой системы документооборота.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f5.png">
+                                <div class="right-block">
+                                    <p class="bolder">Простая система лицензирования</p>
+                                    <p class="ufont-p">При покупке системы лицензируется только параметр «количество обрабатываемых страниц в месяц». А дополнительно, для вы- полнения задач OCR-распознавания текста, в комплект могут быть включены лицензии на использование одного или нескольких экземпляров продукта ABBYY FineReader Engine.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f6.png">
+                                <div class="right-block">
+                                    <p class="bolder">Возможность ручного контроля</p>
+                                    <p class="ufont-p">На этапе запуска системы в эксплуатацию предусмотрена возможность вручную управлять работой системы. Это позволяет установить наиболее подходящие параметры настроек и подобрать оптимальное качество сканируемых документов.</p>
+                                </div>
+                            </div>
+                            <div class="func-wrap">
+                                <img src="img/icons/f7.png">
+                                <div class="right-block">
+                                    <p class="bolder">Технические требования и загрузка дистрибутива</p>
+                                    <p class="ufont-p">Для работы опции «Поточное сканирование» рекомендуется использовать ОС Windows Server 2003 или Windows Server 2008. Требования к поточным сканерам:</p>
+                                    <ul>
+                                        <li>Обязательно – поддержка TWAIN-интерфейса;</li>
+                                        <li>Рекомендуется – отсутствие предзахвата второй страницы.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="white-button d-load-but">Загрузить дистрибутив<img src="img/icons/i-load.png"></button>
+                            <section class="blocks-sec">
+                                <div class="block-wrap">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h3>Описание технологического процесса обработки документов</h3>
+                                            <p>Принцип поточного сканирования основан на том, что на документ при регистрации наноси- тся штрих-код. Потом помеченные штрих-кодом документы сканируются и автоматически (по штрих-коду) связываются с регистрационной карточкой соответствующего документа. Если на сканируемые документы уже нанесен штрих-код стандартного формата, то он также может быть использован для идентификации. Структурная схема работы системы представлена на рисунке.</p>
+                                            <a href="#">Подробнее<i class="flaticon-next"></i></a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="img-back" style="background-image: url(img/img-back1.png)"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-wrap">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Интеграция произвольной СЭД с опцией</h3>
+                                            <p>Интеграция с опцией «Поточное сканирование» предполагает реализацию со стороны произвольной СЭД только двух функций:</p>
+                                            <ul>
+                                                <li>Формирование и отправка в опцию «Поточное сканирование» заявки на сканирование - cо стороны СЭД передается запрос, содержащий требования на обработку документа. Опция регистрирует заявку и возвращает в СЭД ее уникальный идентификатор. На данном этапе осуществляется связка уникального идентификатора заявки на сканирование с штрих-кодом, уже существующем на документе, либо вновь сгенерированным.</li>
+                                                <li>Выполнение приема и сохранение итоговых результатов, сформированных опцией «Поточное сканирование» - при этом сопоставляются результатов выполнения сканирования с объектами СЭД. Причем данное действие, осуществляющееся на основе уникального идентификатора заявки на сканиро- вание и может быть расширено любой бизнес - логикой СЭД.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-wrap">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img-back" style="background-image: url(img/img-back2.png)"></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h3>Регистрация и сканирование документов</h3>
+                                            <p>Регистрация документа, т.е. создание регистрационной карточки, выполняется по обычным правилам используемой системы электронного документооборота. Далее, при обращении к опции «Поточное сканирование», происходят регистрация заявки на сканирование, а также генерация штрих-кода и указание параметров заявки (расположение штрих-кода, требуемые форматы, необходимость распознавания). После того как регистрационная карточка документа будет записана в базу данных, на его первую страницу или на отдельный лист бумаги с помощью принтера наносится штрих-код. Он содержит уникальный идентификационный номер документа и устанавливает правила его обработки. </p>
+                                            <a href="#">Подробнее<i class="flaticon-next"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-wrap">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h3>Госуслуги и обращения граждан</h3>
+                                            <p>СЭД «ДЕЛО» позволяет перевести в электронную форму процесс межведомственного взаи- модействия и оказания государственных и муниципальных услуг. Это обеспечивается инте- грацией с «Единым порталом государственных и муниципальных услуг» (ЕПГУ) через Систему межведомственного электронного взаимодействия (СМЭВ). Система предусматривает интеграцию с АС «Обращение Граждан». Для автоматизации работы МФЦ на базе программы «ДЕЛО» разработано решение АИС МФЦ ДЕЛО. Для автоматизации госуслуги по выдаче охотничьих билетов и разрешений на охоту разаботана система АИС «Охотничий билет».</p>
+                                            <a href="#">Подробнее<i class="flaticon-next"></i></a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="img-back" style="background-image: url(img/img-back3.png)"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </section>
+                            <section class="request-sec">
+                                <form class="request-form">
+                                    <h2>Оставить заявку</h2>
+                                    <p>Свяжитесь с нами, и мы поможем найти оптимальное решение ваших задач</p>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <input class="input-style" required type="text" size="20" placeholder="Ваше имя *">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input class="input-style" required type="text" size="20" placeholder="Телефон *">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input class="input-style" required type="text" size="20" placeholder="E-mail *">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <textarea class="text-field field-margin" placeholder="Сообщение"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="check-wrapper">
+                                        <div class="row">
+
+                                            <div class="col-md-1">
+                                                <span>Вы хотите*</span>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="check-wrap">
+                                                    <input type="checkbox" id="free-prs">
+                                                    <label for="free-prs">Заказать бесплатную презентацию 
+          системы у Вас в офисе</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="check-wrap">
+                                                    <input type="checkbox" id="comm-offer">
+                                                    <label for="comm-offer">Получить коммерческое предложение 
+          на поставку и внедрение</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-wrap">
+                                                    <input type="checkbox" id="free-demo">
+                                                    <label for="free-demo">Получить бесплатную демо-
+          версию системы</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="lighter">*Обязательные поля для заполнения</p>
+                                    <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="tab-content product-sec">
+            <div class="tab-pane fade in active" id="sharp-product">
+                <div class="screens-wrap">
+                    <div class="slider-wrapper">
+                        <h3>Скриншоты</h3>
+                        <div class="screens-sp-slider">
+                            <div class="slide">
+                                <a class="slider-wrapper" href="img/slider-screens/sc1.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc2.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc2.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc2.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc3.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc3.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc4.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc4.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc1.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc1.png)" ><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc2.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc2.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc3.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc3.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                            <div class="slide">
+                                <a href="img/slider-screens/sc4.png" data-fancybox="screens-sp" style="background-image: url(img/slider-screens/sc4.png)"><i class="flaticon-lypa"></i></a>
+                            </div>
+                        </div>
+                        <div class="screens-sp-arrows"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section class="consult-sec spec-part" style="background-image: url(img/back-3.png)">
+        <div class="container">
+            <div class="cons-wrap">
+                <div class="person-cons">
+                    <img src="img/photo-consult.png">
+                    <span>Иван И.</span>
+                    <p>Руководитель отдела разработки</p>
+                </div>
+                <p>Получите качественную бесплатную консультацию</p>
+                <button class="white-button">Оставить заявку<img src="img/icons/sms.png"></button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="tabs-sec">
+        <div class="container">
+            <div class="nav-wrap">
+                <ul class="nav nav-tabs" id="myTab">
+                    <li role="presentation" class="active">
+                        <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-functional">Решения по функционалу </a>
+                    </li>
+                    <li role="presentation">
+                        <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-otrasl">Решения по отраслям</a>
+                    </li>
+                    <li role="presentation">
+                        <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-import">Импортозамещение</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="row tab-pane fade in active" id="panel-functional">
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/01.png">
+                            <p>Автоматизация бизнес-процессов</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/02.png">
+                            <p>Импортозамещение</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/03.png">
+                            <p>Управление финансовыми и бухгалтерскими документами</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/04.png">
+                            <p>Электронное правительство</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/05.png">
+                            <p>Организация и ведение делопроизводства на предприятии
+                            </p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/06.png">
+                            <p>Классическое делопроизводство
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/07.png">
+                            <p>Внешний докуметооборот</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/08.png">
+                            <p>Электронный Парламент</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="panel-otrasl">
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/01.png">
+                            <p>Автоматизация бизнес-процессов</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/02.png">
+                            <p>Импортозамещение</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/03.png">
+                            <p>Управление финансовыми и бухгалтерскими документами</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/04.png">
+                            <p>Электронное правительство</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/05.png">
+                            <p>Организация и ведение делопроизводства на предприятии
+                            </p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/06.png">
+                            <p>Классическое делопроизводство
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/07.png">
+                            <p>Внешний докуметооборот</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/08.png">
+                            <p>Электронный Парламент</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="panel-import">
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/01.png">
+                            <p>Автоматизация бизнес-процессов</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/02.png">
+                            <p>Импортозамещение</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/03.png">
+                            <p>Управление финансовыми и бухгалтерскими документами</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/04.png">
+                            <p>Электронное правительство</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/05.png">
+                            <p>Организация и ведение делопроизводства на предприятии
+                            </p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/06.png">
+                            <p>Классическое делопроизводство
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sol-block">
+                            <img src="img/tabs/07.png">
+                            <p>Внешний докуметооборот</p>
+                        </div>
+                        <div class="sol-block">
+                            <img src="img/tabs/08.png">
+                            <p>Электронный Парламент</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="a-show">Показать все</a>
+                <button class="white-button">Получить бесплатную консультацию<img src="img/icons/sms.png"></button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="clients-sec">
+        <div class="container">
+            <h2 class="h2-style">Наши клиенты</h2>
+            <div class="slider-wrapper">
+                <div class="clients-slider">
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line-a-block">
+            <div class="clients-s-nav">
+                <div class="clients-arrows">
+                    <div class="clients-tumbler"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="partners-sec">
+        <div class="container" style="background-image: url(img/partners-back.png)">
+            <div class="partners-block">
+                <h2 class="h2-style">Наши партнеры</h2>
+                <div class="circle-partners">
+                    <span>250</span>
+                </div>
+                <p>во всех городах России<br> и странах СНГ</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 contact-block">
+                    <img src="img/logo-footer.png">
+                    <a href="tel: +7(495)2212431">+7(495) 221-24-31</a>
+                    <span>Звоните нам</span>
+                    <p>ПН-ПТ: 9.00-19.00</p>
+                    <div class="line-block">
+                        <p>Москва, ул.Шумкина, д.20 стр.1</p>
+                    </div>
+                    <div class="soc-icons">
+                        <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                        <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                        <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                        <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                        <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h3 class="orange-line">Решения</h3>
+                    <ul>
+                        <li><a href="#">Автоматизация бизнес-процессов</a></li>
+                        <li><a href="#">Классическое делопроизводство</a></li>
+                        <li><a href="#">Мобильные приложения</a></li>
+                        <li><a href="#">Решения по отраслям</a></li>
+                        <li><a href="#">Электронная подпись</a></li>
+                        <li><a href="#">Электронные гос. услуги</a></li>
+                        <li><a href="#">Электронный архив документов</a></li>
+                        <li><a href="#">Электронный Парламент</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h3>Продукты</h3>
+                    <ul>
+                        <li><a href="#">ДЕЛО</a></li>
+                        <li><a href="#">EOS for SharePoint</a></li>
+                        <li><a href="#">Мобильные приложения</a></li>
+                        <li><a href="#">eDocLib</a></li>
+                        <li><a href="#">Архивное ДЕЛО</a></li>
+                        <li><a href="#">EDSIGN</a></li>
+                        <li><a href="#">КАРМА</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Услуги</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h3 class="orange-line">О компании</h3>
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Новости компании</a></li>
+                        <li><a href="#">Наши клиенты</a></li>
+                        <li><a href="#">Наши партнеры</a></li>
+                        <li><a href="#">Партнёрская программа</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Сертификаты и лицензии</a></li>
+                        <li><a href="#">ЭОС в соц.сетях</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h3>Пользователям</h3>
+                    <ul>
+                        <li><a href="#">Условия тех.поддержки</a></li>
+                        <li><a href='#'>Новости сопровождения</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href='#'>Дополнительная информация</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rights-block">
+                <p>Copyright 2017 «Электронные Офисные Системы»</p>
+                <p>Дизайн - <a href="http://www.liqium.ru/">Liqium</a></p>
+            </div>
+
+        </div>
+        <section class="order-popup">
+            <div class="bg-popup" data="order-popup" style="display: none;">
+                <div class="container popup-call">
+                    <div class="order-wrap">
+                        <div class="graytop-block">
+                            <button class="cross">
+                                <i class="flaticon-cross"></i>
+                            </button>
+                            <h2>Оставить заявку</h2>
+                            <p>Свяжитесь с нами, и мы поможем найти оптимальное решение ваших задач</p>
+                        </div>
+                        <div class="white-block">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                </div>
+                                <div class="col-md-4">
+                                    <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                </div>
+                                <div class="col-md-4">
+                                    <input class="input-style" required type="text" size="15" placeholder="E-mail*">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea class="text-field field-margin" placeholder="Сообщение"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-wrapper">
+                            <div class="row">
+                                    <div class="col-md-3">
+                                            <span>Вы хотите*</span>
+                                    </div>
+                                
+                                <div class="col-md-9 right-block">
+                                    <div class="check-wrap">
+                                            <input type="checkbox" id="free-prs">
+                                            <label for="free-prs">Заказать бесплатную презентацию системы у Вас в офисе</label>
+                                    </div>
+                                       <div class="check-wrap">
+                                            <input type="checkbox" id="comm-offer">
+                                            <label for="comm-offer">Получить коммерческое предложение на поставку и внедрение</label>
+                                       </div>
+                                       <div class="check-wrap">
+                                            <input type="checkbox" id="free-demo">
+                                            <label fore="free-demo">Получить бесплатную демо-версию системы</label>
+                                       </div>                
+                                </div>
+                            </div>
+
+                            <div class="bottom-block">
+                                <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                <p class="lighter">*Обязательные поля для заполнения</p>
+                                <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                            </div>
+      
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-popup">
+            <div class="bg-popup" data="call-popup" style="display: none;">
+                <div class="container popup-call">
+                    <div class="order-wrap">
+                        <div class="graytop-block">
+                            <button class="cross">
+                                <i class="flaticon-cross"></i>
+                            </button>
+                            <h2>Заказать обратный звонок</h2>
+                            <p>Заполните форму и мы свяжемся с Вами  в удобное для Вас время
+                                    и ответим на все вопросы</p>
+                        </div>
+                        <div class="white-block">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                </div>
+                              
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea class="text-field field-margin" placeholder="Ваш вопрос"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-wrapper">
+                            <div class="bottom-block">
+                                <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                <p class="lighter">*Обязательные поля для заполнения</p>
+                                <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</body>
+
+</html>

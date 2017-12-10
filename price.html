@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>EOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700|Roboto+Condensed:300,300i,400,400i,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700|Ubuntu:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/adaptive.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+    <section class="header about-header">
+        <div class="container">
+            <div class="row">
+                <div class="header-first-row">     
+                    <div class="col-md-2 col-lg-2 col-sm-12 col-xs-6">
+                        <a href="index.html">
+                            <div class="logo" style="background-image: url(img/logo.png)"></div>
+                        </a>
+                    </div>
+                    <div class="hidden-lg hidden-md hidden-sm col-xs-6">
+                            <button type="button" class="navbar-toggler">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="hidden-lg-custom  col-lg-3 hidden-sm col-md-2 hidden-xs">
+                        <div class="soc-icons">
+                            <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                            <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                            <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                            <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                            <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 hidden-xs-custom">
+                        <div class="leave-request">
+                            <button class="gray-button openmodal" data="order-popup">Оставить заявку<i class="flaticon-pen"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="phone-number">
+                            <a href="tel:+7(495)221-24-31"><i class="flaticon-smartphone-call"></i></a><a href="">+7(495)221-24-31</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-lg-2-custom col-sm-4 col-xs-4 col-xs-6-custom">
+                        <div class="log-in">
+                            <button class="gray-button openmodal" data="call-popup">Войти<img src="img/icons/person.png"></button>
+                            <button class=""><i class="flaticon-lypa"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="main-menu">
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="solutions.html">Решения</a></li>
+                        <li><a href="products.html">Продукты</a></li>
+                        <li><a href="contacts.html">Пользователям</a></li>
+                        <li><a href="partners.html">Партнерам</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="#">О документообороте</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="line-a-block product-m">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <i class="flaticon-right-arrow"></i>
+                <li>Цены</li>
+              
+            </ul>
+        </div>
+    </section>
+
+
+    </section>
+    <section class="about-sec product-sec sp-sec">
+        <div class="container">
+            <div class="row price-spec">
+                <div class="col-md-3">
+                    <div class="about-ul-wrap nav-wrap">
+                        <ul class="about-ul nav nav-tabs" id="priceTab">
+                            <li role="presentation" class="active"><a href="#price-company" data-toggle="tab" role="tab">Описание</a></li>
+                            <li><a href="#">Преимущества</a></li>
+                            <li><a href="#">Функциональность</a></li>
+                            <li><a href="#">Скриншоты</a></li>
+                            <li><a href="#">Презентации и видео</a></li>
+                            <li><a href="#">Госуслуги и обращения граждан</a></li>
+                            <li><a href="#">В помощь госзаказчику</a></li>
+                            <li><a href="#">Решения на основе ПО ЭОС</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Акции и скидки</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Клиенты и проекты</a></li>
+                            <li><a href="#">Дистрибутивы</a></li>
+                            <li><a href="#">Демо-версия</a></li>
+                            <li><a href="#">Дополнительная информация</a></li>
+                        </ul>
+                    </div>
+                    <div class="stock-block">
+                        <div class="span-img">
+                            <img src="img/icons/stock-ii.png">
+                            <span>Акция</span>
+                        </div>
+                        <h3>Миграция с других систем</h3>
+                        <p>Скидка до 15% на право использования «ДЕЛО» при миграции с других решений </p>
+                        <button class="arrow-button"><img src="img/icons/arrow.png"></button>
+                    </div>
+                    <div class="order-block-wrap">
+                        <div class="order-block-top">
+                            <img src="img/icons/ehy1.png">
+                            <p>Получите демоверсию и консультацию</p>
+                            <a href="tel:+74952212431">+7(495) 221-24-31</a>
+                        </div>
+                        <div class="order-block-bottom">
+                            <span>или</span>
+                            <p>Узнайте стоимость</p>
+                            <button class="white-button">Оставить заявку<img src="img/icons/sms.png"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 sol-wrapper">
+                    <div class="tab-content product-sec">
+                        <div class="tab-pane fade in active" id="price-company">
+                                <div class="h-p-wrap">
+                                        <h2 class="h2-style">Цены</h2>
+                                        <p>EOS for SharePoint. Прейскурант на ПО и услуги</p>
+                                    </div>
+                                    
+                                            <div class="price-wrapper">
+                                                <div class="nav-wrap">
+                                                    <ul class="nav nav-tabs" id="price-Table">
+                                                        <li role="presentation" class="active">
+                                                            <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-workarea">Рабочие места</a>
+                                                        </li>
+                                                        <li role="presentation">
+                                                            <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-options">Опции</a>
+                                                        </li>
+                                                        <li role="presentation">
+                                                            <a class="sol-nav" data-toggle="tab" role="tab" href="#panel-service">Услуги</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                               <div class="tab-content">
+                                   <div class="tab-pane fade in active" id="panel-workarea">
+<div class="table-responsive">
+    <table class="price-table">
+        <tr class="gray-tr">
+            <th class="orange-tr" colspan="6">Стоимость лицензий на систему EOS for SharePoint</th>
+        </tr>
+
+        <tr>
+           <td>Серверная лицензия<br>
+            (на использование решения в рамках фермы серверов SharePoint)</td> 
+            <td></td>
+            <td></td>
+            <td></td>
+             <td>50 000 &#8381;</td>
+             <td></td>   
+        </tr>
+
+        <th class="brown" colspan="6">
+            Стоимость лицензии одного рабочего места «Участник» (полнофункциональное рабочее место СЭД)
+        </th>
+
+        <tr class="border-tr">
+            <td>Количество рабочих мест</td>
+            <td>1-50</td>
+            <td>51-100</td>
+            <td>101-200</td>
+            <td>свыше 200</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Цена лицензии за одно рабочее место*</td>
+            <td>7500 &#8381;</td>
+            <td>7000 &#8381;</td>
+            <td>6 200 &#8381;</td>
+            <td>по запросу</td>
+            <td></td>
+        </tr>
+
+        <th class="brown" colspan="6">
+            Стоимость лицензии одного рабочего места «Читатель» (рабочее место с ограниченными возможностями)
+        </th>
+        <tr class="border-tr">
+            <td>Количество рабочих мест</td>
+            <td>1-200</td>
+            <td>201-500</td>
+            <td></td>
+            <td>свыше 500</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Цена лицензии за одно рабочее место*</td>
+            <td>1 500 &#8381;</td>
+            <td>1 000 &#8381;</td>
+            <td></td>
+            <td>по запросу</td>
+            <td></td>
+        </tr>
+        <th class="brown" colspan="6">
+            Стоимость лицензии одного рабочего места «Управление совещаниями» (рабочее место участника совещаний)
+        </th>
+        <tr class="border-tr">
+            <td>Количество рабочих мест</td>
+            <td>1-200</td>
+            <td>201-500</td>
+            <td></td>
+            <td>свыше 500</td>
+            <td></td>
+        </tr>
+    <tr>
+        <td>Цена лицензии за одно рабочее место*</td>
+        <td>1 500 &#8381;</td>
+        <td>1 000 &#8381;</td>
+        <td></td>
+        <td>по запросу</td>
+        <td></td>
+    </tr>
+    <th class="brown" colspan="6">
+        Стоимость лицензии одного рабочего места «Файловый архив» (рабочее место пользователя файлового архива)
+    </th>
+
+    <tr class="border-tr">
+            <td>Количество рабочих мест</td>
+            <td>1-200</td>
+            <td>201-500</td>
+            <td></td>
+            <td>свыше 500</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Цена лицензии за одно рабочее место*</td>
+            <td>1 500 &#8381;</td>
+            <td>1 000 &#8381;</td>
+            <td></td>
+            <td>по запросу</td>
+            <td></td>
+        </tr>
+
+        <th class="brown" colspan="6">
+            Стоимость лицензии Корпоративного портала
+        </th>
+        <tr class="border-tr">
+            <td>Название лицензии 
+                (количество пользователей 
+                портала не более)	</td>
+            <td>"нано"<br>
+            (не более 100)</td>
+            <td>"микро"<br>(не более 500)</td>
+            <td>"малый"<br>(не более 1000)</td>
+            <td>"средний"<br>(не более 2500)</td>
+            <td>"крупный"<br>(не более 10000)</td>
+        </tr>
+        <tr>
+            <td>Цена серверной лицензии</td>
+            <td>90 000 &#8381;</td>
+            <td>245 000 &#8381;</td>
+            <td>410 000 &#8381;</td>
+            <td>730 000 &#8381;</td>
+            <td>1 100 000 &#8381;</td>
+        </tr>
+    </table>
+
+    <div class="p-block">
+            <p>* Расчет полной стоимости лицензий рабочих мест производится нарастающим итогом.</p>
+            <p>Например, стоимость лицензий на 115 рабочих мест «Участник»  составляет  (7500*50+7000*50+6200*15) = 818 000 Р.</p>
+            <p>Для рабочих мест и корпоративного портала необходима Серверная лицензия на cистему EOS for SharePoint (на использование решения в рамках фермы серверов SharePoint)</p>
+    </div>
+  
+    <div class="product-wrap">
+            <div class="gray-b"><p class="p-orange">Типовой комплект поставки системы ENTERPRISE OFFICE SOLUTION for SHAREPOINT (EOS for SharePoint)</p></div> 
+            <ol>
+                <li>Программное обеспечение</li>
+                <li>Комплект документации (в электронном виде):
+                    <ul>
+                        <li>Введение в систему</li>
+                        <li>Руководство пользователя</li>
+                        <li>Руководство администратора</li>
+                    </ul>
+                </li>
+            </ol>
+    </div>
+<div class="garanty-wrap">
+        <div class="gray-b"><p class="p-orange">Гарантийные обязательства</p></div>
+        <p>Доступ к форуму по продукту и к ответам на часто задаваемые вопросы (FAQ) на сайте www.eos.ru</p>
+        <ul>
+            <li>Поставка новых версий системы в течение года.</li>
+            <li>Помощь в диагностике ошибок по e-mail</li>
+            <li>Консультирование по телефону или e-mail по вопросам, не описанным в документации</li>
+            <li>Консультирование по телефону или e-mail по вопросам установки/обновления версии</li>
+        </ul>
+        <p>В стоимость лицензий по текущему прейскуранту входят годовые гарантийные обязательства. По истечению гарантийного срока заключается 
+                договор на сопровождение. </p>
+                <p>Стоимость годового сопровождения определяется выбранным уровнем сопровождения («Минимальный», «Базовый», «Стандартный» или «Пер-сональный» – см. описание уровней сопровождения www.eos.ru/ eos_products/ price_RF/ support_levels_description_EOSforSH.php). В случае несво-евременного заключения договора на сопровождение необходимо оплатить пропущенный период. </p>
+                <p>В стоимость лицензии решения не входит стоимость лицензии платформы Microsoft Office SharePoint Server и СУБД Microsoft SQL Server. По согла-сованию с Заказчиком, за дополнительную плату, может быть осуществлена комплексная поставка решения EOS for SharePoint и Microsoft Office SharePoint Server 2010/2013/2016, а также СУБД MS SQL Server 2008R2/2012/2014/2016, и оказаны дополнительные услуги в соответствии с прей- скурантом на услуги (установка и настройка системы, обучение персонала Заказчика, и т.д.).</p>
+                <p>Временную версию системы EOS for SharePoint, включая документацию в электронном виде, можно бесплатно получить, обратившись в отдел продаж.</p>
+                
+</div>
+<div class="g-block">
+    <p>Программное обеспечение, поставленное по письменному лицензионному договору, НДС не облагается (Статья 149 Налогового кодекса Российской Федерации). Все цены приведены в рублях.</p>
+    <p>Указанные цены могут быть изменены.</p>
+</div>
+<div class="p-block">
+        <p>За подробной информацией о стоимости лицензий и услуг можно обращаться в отдел продаж, а также к нашим партнерам.</p>
+        
+</div>
+
+
+</div>
+<div class="row scale-wrap">
+    <div class="col-md-4">
+        <img src="img/icons/pdf2.png">
+        <p>Прейскурант на ПО <br>
+                «EOS for SharePoint»</p>
+    </div>
+    <div class="col-md-4">
+            <img src="img/icons/pdf2.png">
+            <p>Прейскурант на ПО. <br>
+                    Опции «EOS for SharePoint»</p>
+    </div>
+    <div class="col-md-4">
+            <img src="img/icons/pdf2.png">
+            <p>Прейскурант на ПО <br>
+                    «EOS for SharePoint»</p>
+    </div>
+</div>
+<section class="request-sec">
+        <form class="request-form">
+            <h2>Оставить заявку</h2>
+            <p>Свяжитесь с нами, и мы поможем найти оптимальное решение ваших задач</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <input class="input-style" required type="text" size="20" placeholder="Ваше имя *">
+                </div>
+                <div class="col-md-4">
+                    <input class="input-style" required type="text" size="20" placeholder="Телефон *">
+                </div>
+                <div class="col-md-4">
+                    <input class="input-style" required type="text" size="20" placeholder="E-mail *">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea class="text-field field-margin" placeholder="Сообщение"></textarea>
+                </div>
+            </div>
+            <div class="check-wrapper">
+                <div class="row">
+
+                    <div class="col-md-1">
+                        <span>Вы хотите*</span>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="check-wrap">
+                            <input type="checkbox" id="free-prs">
+                            <label for="free-prs">Заказать бесплатную презентацию 
+системы у Вас в офисе</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="check-wrap">
+                            <input type="checkbox" id="comm-offer">
+                            <label for="comm-offer">Получить коммерческое предложение 
+на поставку и внедрение</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="check-wrap">
+                            <input type="checkbox" id="free-demo">
+                            <label for="free-demo">Получить бесплатную демо-
+версию системы</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="lighter">*Обязательные поля для заполнения</p>
+            <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+        </form>
+    </section>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="blue-slider-sec">
+        <div class="container">
+            <div class="slider-wrapper">
+                <div class="project-slider">
+                    <div class="slide">
+                        <div class="sliderimage">
+                            <h3>Наши проекты</h3>
+                            <img src="img/icons/logo-sber.png">
+                            <span>Сбербанк</span>
+                            <p>Масштабный проект реализации документооборота<br>с масштабированием до 35 000 рабочих мест</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="sliderimage">
+                            <h3>Наши проекты</h3>
+                            <img src="img/icons/logo-sber.png">
+                            <span>Сбербанк</span>
+                            <p>Масштабный проект реализации документооборота<br>с масштабированием до 35 000 рабочих мест</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="sliderimage">
+                            <h3>Наши проекты</h3>
+                            <img src="img/icons/logo-sber.png">
+                            <span>Сбербанк</span>
+                            <p>Масштабный проект реализации документооборота<br>с масштабированием до 35 000 рабочих мест</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-arrows"></div>
+                <div class="project-tumbler"></div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="clients-sec">
+        <div class="container">
+            <h2 class="h2-style">Наши клиенты</h2>
+            <div class="slider-wrapper">
+                <div class="clients-slider">
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/alladin.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/ms.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/oracle.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/abbyy.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/cryptopro.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/canon.png);">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="client-slider__container" style="background-image: url(img/clients-slider/crystal.png);">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line-a-block">
+            <div class="clients-s-nav">
+                <div class="clients-arrows">
+                    <div class="clients-tumbler"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <section class="partners-sec">
+            <div class="container" style="background-image: url(img/partners-back.png)">
+                <div class="partners-block">
+                    <h2 class="h2-style">Наши партнеры</h2>
+                    <div class="circle-partners">
+                        <span>250</span>
+                    </div>
+                    <p>во всех городах России<br> и странах СНГ</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 contact-block">
+                        <img src="img/logo-footer.png">
+                        <a href="tel: +7(495)2212431">+7(495) 221-24-31</a>
+                        <span>Звоните нам</span>
+                        <p>ПН-ПТ: 9.00-19.00</p>
+                        <div class="line-block">
+                            <p>Москва, ул.Шумкина, д.20 стр.1</p>
+                        </div>
+                        <div class="soc-icons">
+                            <a href="#"><i class="flaticon-facebook-logo"></i></a>
+                            <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+                            <a href="#"><i class="flaticon-vk-social-network-logo"></i></a>
+                            <a href="#"><i class="flaticon-instagram-logo"></i></a>
+                            <a href="#"><i class="flaticon-odnoklassniki-logo"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="orange-line">Решения</h3>
+                        <ul>
+                            <li><a href="#">Автоматизация бизнес-процессов</a></li>
+                            <li><a href="#">Классическое делопроизводство</a></li>
+                            <li><a href="#">Мобильные приложения</a></li>
+                            <li><a href="#">Решения по отраслям</a></li>
+                            <li><a href="#">Электронная подпись</a></li>
+                            <li><a href="#">Электронные гос. услуги</a></li>
+                            <li><a href="#">Электронный архив документов</a></li>
+                            <li><a href="#">Электронный Парламент</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Продукты</h3>
+                        <ul>
+                            <li><a href="#">ДЕЛО</a></li>
+                            <li><a href="#">EOS for SharePoint</a></li>
+                            <li><a href="#">Мобильные приложения</a></li>
+                            <li><a href="#">eDocLib</a></li>
+                            <li><a href="#">Архивное ДЕЛО</a></li>
+                            <li><a href="#">EDSIGN</a></li>
+                            <li><a href="#">КАРМА</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Услуги</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="orange-line">О компании</h3>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Новости компании</a></li>
+                            <li><a href="#">Наши клиенты</a></li>
+                            <li><a href="#">Наши партнеры</a></li>
+                            <li><a href="#">Партнёрская программа</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Команда</a></li>
+                            <li><a href="#">Сертификаты и лицензии</a></li>
+                            <li><a href="#">ЭОС в соц.сетях</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Пользователям</h3>
+                        <ul>
+                            <li><a href="#">Условия тех.поддержки</a></li>
+                            <li><a href='#'>Новости сопровождения</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Форум</a></li>
+                            <li><a href='#'>Дополнительная информация</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rights-block">
+                    <p>Copyright 2017 «Электронные Офисные Системы»</p>
+                    <p>Дизайн - <a href="http://www.liqium.ru/">Liqium</a></p>
+                </div>
+    
+            </div>
+
+            <section class="order-popup">
+                <div class="bg-popup" data="order-popup" style="display: none;">
+                    <div class="container popup-call">
+                        <div class="order-wrap">
+                            <div class="graytop-block">
+                                <button class="cross">
+                                    <i class="flaticon-cross"></i>
+                                </button>
+                                <h2>Оставить заявку</h2>
+                                <p>Свяжитесь с нами, и мы поможем найти оптимальное решение ваших задач</p>
+                            </div>
+                            <div class="white-block">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input class="input-style" required type="text" size="15" placeholder="E-mail*">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea class="text-field field-margin" placeholder="Сообщение"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check-wrapper">
+                                <div class="row">
+                                        <div class="col-md-3">
+                                                <span>Вы хотите*</span>
+                                        </div>
+                                    
+                                    <div class="col-md-9 right-block">
+                                        <div class="check-wrap">
+                                                <input type="checkbox" id="free-prs">
+                                                <label for="free-prs">Заказать бесплатную презентацию системы у Вас в офисе</label>
+                                        </div>
+                                           <div class="check-wrap">
+                                                <input type="checkbox" id="comm-offer">
+                                                <label for="comm-offer">Получить коммерческое предложение на поставку и внедрение</label>
+                                           </div>
+                                           <div class="check-wrap">
+                                                <input type="checkbox" id="free-demo">
+                                                <label fore="free-demo">Получить бесплатную демо-версию системы</label>
+                                           </div>                
+                                    </div>
+                                </div>
+
+                                <div class="bottom-block">
+                                    <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                    <p class="lighter">*Обязательные поля для заполнения</p>
+                                    <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                                </div>
+          
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="call-popup">
+                <div class="bg-popup" data="call-popup" style="display: none;">
+                    <div class="container popup-call">
+                        <div class="order-wrap">
+                            <div class="graytop-block">
+                                <button class="cross">
+                                    <i class="flaticon-cross"></i>
+                                </button>
+                                <h2>Заказать обратный звонок</h2>
+                                <p>Заполните форму и мы свяжемся с Вами  в удобное для Вас время
+                                        и ответим на все вопросы</p>
+                            </div>
+                            <div class="white-block">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input class="input-style" required type="text" size="15" placeholder="Ваше имя*"> 
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="input-style" required type="text" size="15" placeholder="Телефон*">
+                                    </div>
+                                  
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea class="text-field field-margin" placeholder="Ваш вопрос"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check-wrapper">
+                                <div class="bottom-block">
+                                    <button class="orange-button">Отправить заявку<img src="img/icons/w-order.png"></button>
+                                    <p class="lighter">*Обязательные поля для заполнения</p>
+                                    <p>Телефон для связи в Москве:<a href="tel:+7(495)2212431">+7 (495) 221-24-31</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+    </body>
+    
+    </html>
